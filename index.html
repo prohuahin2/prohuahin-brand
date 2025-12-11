@@ -1,51 +1,62 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>PROHUAHIN Brand Guidelines</title>
-<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<title>PROHUAHIN — Brand Guidelines</title>
+
+<!-- Подключаем шрифты -->
 <style>
-    body {
-        font-family: 'Exo 2', sans-serif;
-        background: #FFFFFF;
-        color: #333333;
-        margin: 0; padding: 40px;
-        line-height: 1.6;
-    }
-    h1, h2, h3 { color: #333333; margin-top: 40px; }
-    .color-box {
-        width: 120px; height: 120px;
-        display: inline-block;
-        margin: 10px;
-        border-radius: 8px;
-        border: 1px solid #ddd;
-    }
-    .section { margin-bottom: 50px; }
-    .logo { max-width: 220px; margin: 20px 0; }
-    code { background:#f2f2f2; padding:4px 8px; border-radius:4px; }
+@font-face {
+    font-family: 'Exo2';
+    src: url('exo2_0_light.otf') format('opentype');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Exo2';
+    src: url('exo2_0_medium.otf') format('opentype');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Exo2';
+    src: url('exo2_0_bold.otf') format('opentype');
+    font-weight: 700;
+}
+
+body {
+    font-family: 'Exo2', sans-serif;
+    background: #FFFFFF;
+    color: #333333;
+    margin: 0; padding: 40px;
+    line-height: 1.6;
+}
+h1, h2, h3 { color: #333333; margin-top: 40px; }
+.color-box {
+    width: 120px; height: 120px;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+.section { margin-bottom: 50px; }
+.logo { max-width: 280px; margin: 20px 0; }
+.pattern { max-width: 200px; margin: 20px 0; }
+.icon { max-width: 200px; margin: 20px 0; }
 </style>
 </head>
 
-
 <body>
 
-
 <h1>PROHUAHIN — Brand Guidelines</h1>
-<p>Official brand style guide for PROHUAHIN.  
-Minimalistic. Clean. Professional. Nothing extra.</p>
-
+<p>Official brand style guide for PROHUAHIN. Minimalistic. Clean. Professional. Nothing extra.</p>
 
 <hr>
 
-
+<!-- 1. LOGO -->
 <div class="section">
 <h2>1. Logo</h2>
-<p>Основной логотип PROHUAHIN.  
-Буква “О” — стилизованная лупа, символизирующая поиск.</p>
+<p>Основной логотип PROHUAHIN. Буква “О” — стилизованная лупа, символизирующая поиск.</p>
 
-
-<img class="logo" src="https://i.imgur.com/1fNIl1T.png" alt="PROHUAHIN Logo">
-
+<img class="logo" src="PROHUAHIN_LOGO-01.jpg" alt="PROHUAHIN Logo">
 
 <p><b>Правила:</b></p>
 <ul>
@@ -56,117 +67,76 @@ Minimalistic. Clean. Professional. Nothing extra.</p>
 </ul>
 </div>
 
-
 <hr>
 
-
+<!-- 2. COLORS -->
 <div class="section">
 <h2>2. Corporate Colors</h2>
-
 
 <div class="color-box" style="background:#FFCE00"></div> Yellow — #FFCE00  
 <div class="color-box" style="background:#FFFFFF; border:1px solid #ccc"></div> White — #FFFFFF  
 <div class="color-box" style="background:#333333"></div> Graphene — #333333  
-<div class="color-box" style="background:#676767"></div> #676767  
 <div class="color-box" style="background:#8E8E8E"></div> #8E8E8E  
 <div class="color-box" style="background:#CBCBCB"></div> #CBCBCB  
 <div class="color-box" style="background:#F2F2F2"></div> #F2F2F2  
 
-
-<p><b>Основная идея:</b> бренд должен восприниматься светлым; белые поверхности + яркие акценты Yellow.</p>
+<p><b>Основная идея:</b> Бренд воспринимается как светлый: белый фон + насыщенные акценты Yellow.</p>
 </div>
-
 
 <hr>
 
-
+<!-- 3. TYPOGRAPHY -->
 <div class="section">
 <h2>3. Typography</h2>
 
-
-<p><b>Font family:</b> Exo 2.0  
-(Headers — Medium/Bold, Body — Light/Regular)</p>
-
+<p><b>Primary font:</b> Exo2 (Light/Medium/Bold)</p>
 
 <ul>
-<li>Заголовки: Medium/Bold, цвет #333333</li>
-<li>Основной текст: Light, цвет #8E8E8E</li>
-<li>Интерлиньяж: 110–130%</li>
-<li>Кернинг: +3%</li>
-<li>Не использовать капс</li>
+<li>Заголовки — Medium/Bold (#333333)</li>
+<li>Основной текст — Light (#8E8E8E)</li>
+<li>Интерлиньяж 115–130%</li>
+<li>Мягкое, воздушное оформление</li>
 </ul>
-
 
 </div>
 
-
 <hr>
 
-
+<!-- 4. PATTERN -->
 <div class="section">
 <h2>4. Pattern (Фирменный элемент)</h2>
-<p>Паттерн используется как отдельный элемент или в сочетании с логотипом.  
-Допустимые варианты: целиком, правая половина, правая нижняя четверть.</p>
+<p>Паттерн используется как отдельный элемент фирменной айдентики.  
+Допустимые варианты: целиком, половина, четверть.</p>
 
+<img class="pattern" src="Isotypes/Yellow/128x128.svg" alt="PROHUAHIN Pattern">
 
-<img src="https://i.imgur.com/0z2oq6F.png" width="300">
 </div>
-
 
 <hr>
 
-
+<!-- 5. ICONOGRAPHY -->
 <div class="section">
 <h2>5. Iconography</h2>
-<p>Иконки — простые, белые, на скругленных подложках Yellow или Graphene.</p>
+<p>Иконки — белые или жёлтые, простые, на скругленных подложках.</p>
 
+<img class="icon" src="Isotypes/White/128x128.svg" alt="PROHUAHIN Icon">
 
-<img src="https://i.imgur.com/r7lO5Fn.png" width="350">
 </div>
 
-
 <hr>
-
-
-<div class="section">
-<h2>6. Photography Style</h2>
-<p>Фотографии должны быть насыщенными, минималистичными, без лишних деталей.</p>
-
-
-<img src="https://i.imgur.com/DTK2O3U.jpeg" width="450">
-</div>
-
-
-<hr>
-
-
-<div class="section">
-<h2>7. Key Visual Example</h2>
-<p>Основные подходы:</p>
-<ul>
-<li>Для инвесторов — объект недвижимости + триггер (например: «Ресурсы преумножаются тут»)</li>
-<li>Для туристов — красивая природа + триггер («Счастье преумножается тут»)</li>
-</ul>
-
-
-<img src="https://i.imgur.com/fYd6FbW.jpeg" width="450">
-</div>
-
-
-<hr>
-
 
 <h2>Brand Summary Tokens</h2>
-
-
-<p><b>Primary Color:</b> #FFCE00  
-<br><b>Primary Text:</b> #333333  
-<br><b>Secondary Text:</b> #8E8E8E  
-<br><b>Primary Font:</b> 'Exo 2', sans-serif  
-<br><b>Button Style:</b> Yellow background + Graphene text  
-<br><b>Layout:</b> Minimalistic, lots of whitespace  
+<p>
+<b>Primary Color:</b> #FFCE00<br>
+<b>Primary Text:</b> #333333<br>
+<b>Secondary Text:</b> #8E8E8E<br>
+<b>Font Family:</b> Exo2<br>
+<b>Spacing:</b> много воздуха, минимализм<br>
+<b>Style:</b> структурно, современно, без лишних деталей<br>
 </p>
-
 
 </body>
 </html>
+
+
+
